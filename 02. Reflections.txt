@@ -2,3 +2,10 @@
 
 A ghost folder .git is created. This folder stores metadata, tracks changes, etc. You need to do it in order to use git for the current directory.
 -------------
+2. How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area allows you to make changes but not commit them yet. It's value is that it allows commits with full logical changes. You can make all your changes for a specific change and commit once.
+
+git config --global core.editor "'C:/Program Files (x86)/Brackets/Brackets.exe' -n -w"
+
+Test
