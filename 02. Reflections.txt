@@ -1,0 +1,4 @@
+1. What happens when you initialize a repository? Why do you need to do it?
+
+A ghost folder .git is created. This folder stores metadata, tracks changes, etc. You need to do it in order to use git for the current directory.
+-------------
