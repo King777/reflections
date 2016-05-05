@@ -1,0 +1,25 @@
+Git command review
+git diff - Compare two commits, printing each line that is present in one commit but not the other.
+git diff will do this. It takes two arguments - the two commit ids to compare. 
+
+git clone - Make a copy of an entire Git repository, including the history, onto your own computer.
+git clone will do this. It takes one argument - the url of the repository to copy. 
+
+git checkout - Temporarily reset all files in a directory to their state at the time of a specific commit.
+git checkout will do this. It takes one argument - the commit ID to restore. 
+
+git log - Show the commits made in this repository, starting with the most recent.
+git log will do this. It doesn't take any arguments.
+---------------------------------
+git clone - creates a repository on your pc
+git diff - finds the changes between two files
+git log --stats - logs changes/stats of commits
+git checkout - go to a previous commit or repo
+git init - initialize a repository, creates a git repository in the current directory
+git status - see the status of the git repository
+
+cd ~ - goes to home directory
+mv - moves file
+
+commit - a saved version
+repository - a set of files that were commited at the same time
