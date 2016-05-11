@@ -6,6 +6,25 @@ A ghost folder .git is created. This folder stores metadata, tracks changes, etc
 
 The staging area allows you to make changes but not commit them yet. It's value is that it allows commits with full logical changes. You can make all your changes for a specific change and commit once.
 
-git config --global core.editor "'C:/Program Files (x86)/Brackets/Brackets.exe' -n -w"
+---------------
+3. How can you use the staging area to make sure you have one commit per logical change?
 
-Test
+You can commit all the changes for a logical change all at once.
+---------------
+4. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+You can create different versions of the repo. That way you can continue to work on each branch independently of each other.
+----------------
+5. How do the diagrams help you visualize the branch structure?
+
+It's easier to visualize the branches and their commits rather than sorting through a text log.
+----------------
+6. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result was the game didn't work. I must've done something different than shown on video. I am reverting to the latest working version and moving on since the coins branch has been deleted.
+----------------------
+7. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+pros - quick
+cons - could result in conflicts and broken code
+---------------------

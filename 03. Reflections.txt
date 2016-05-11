@@ -1,0 +1,3 @@
+1. Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+You may not want the changes to be public or the work may not be ready to share.

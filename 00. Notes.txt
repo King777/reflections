@@ -1,3 +1,37 @@
+git clone - creates a repository on your pc
+git diff - changes made to files that have not been staged
+git diff --staged - changes made to files that have been staged but not committed
+git diff [ID1][ID2]- finds the changes between two files
+git show [ID] - shows all changes compared to it's parent commit
+git log - logs all commits
+git log --stats - logs changes/stats of commits
+git log --graph --oneline [branches..] - creates a visual of all commits on one line, for all branches listed
+git checkout [ID]- go to a specified repo
+git checkout [branch name] - restore the lastest repo for the specified branch
+git checkout -b [new branch name] - creates new branch and checks it out
+
+git init - initialize a repository, creates a git repository in the current directory
+git status - see the status of the git repository; files that have been modified or staged
+git add [filename]- add file to staging area
+git commit - commits all staged files
+git commit --message - commits and add the commit message in quotes
+git reset --hard - discard all uncommitted changes to files, including discarding all uncommitted staged changes
+git branch - shows all the branches, * indicates the current active branch; use 'git checkout [branch name] to switch active branch
+git branch [new branch name] - creates a new branch with the argumnet as name; use 'git checkout [branch name] to switch active branch
+git merge [branch name ie. master] [branch name]
+git merge --abort - abort the merge
+
+git remote - list of remotes on GitHub
+git remote -v - v isfor verbose aka more info
+git remote add [name you will use as reference ie. origin] [URL ie. git@github.com:USERNAME/FILENAME]
+git push [remote to send changes to ie. origin] [name of local branch ie. master] - pushes commits from local to GitHub
+git pull [remote to send changes to ie. origin] [name of local branch ie. master] - pulls commits from GitHub to local
+
+
+
+cd ~ - goes to home directory
+mv - moves file
+-----------------
 Git command review
 git diff - Compare two commits, printing each line that is present in one commit but not the other.
 git diff will do this. It takes two arguments - the two commit ids to compare. 
@@ -11,15 +45,6 @@ git checkout will do this. It takes one argument - the commit ID to restore.
 git log - Show the commits made in this repository, starting with the most recent.
 git log will do this. It doesn't take any arguments.
 ---------------------------------
-git clone - creates a repository on your pc
-git diff - finds the changes between two files
-git log --stats - logs changes/stats of commits
-git checkout - go to a previous commit or repo
-git init - initialize a repository, creates a git repository in the current directory
-git status - see the status of the git repository
-
-cd ~ - goes to home directory
-mv - moves file
 
 commit - a saved version
 repository - a set of files that were commited at the same time
